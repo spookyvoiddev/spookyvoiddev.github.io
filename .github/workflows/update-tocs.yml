@@ -1,13 +1,10 @@
 name: Update TOCs
 # This workflow automatically updates the Table of Contents (TOC) in markdown files
 
+# Disabled auto-trigger: the TOC regenerator emits markdown that fails the
+# Prettier check workflow, creating a push/auto-commit/fail loop. Run manually
+# when al-folio docs (CUSTOMIZE.md, FAQ.md, etc.) actually need TOC refresh.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "*.md"
   workflow_dispatch:
 
 permissions:
