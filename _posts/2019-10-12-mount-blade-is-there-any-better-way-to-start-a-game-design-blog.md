@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Mount & Blade: The Ultimate Medieval/Low-Fantasy Sandbox"
+date: 2019-10-12 23:50:05 +0000
+description: "Migrated from youcanclickl3.wordpress.com"
+tags:
+  - "Entertainment"
+  - "Game Design"
+  - "Gaming"
+---
+
+Mount and Blade: Warband scratches an itch I have that not many other games can satisfy. Do you aspire to be a monarch over a kingdom? A brigand raiding caravans and killing peasants? A lord over a keep, balancing the political game with various vassals within the kingdom you serve? Or a rebel, attempting to help the true claimant reclaim the throne that was taken from them? All of this is possible and more, within TaleWorlds Entertainment’s game, Mount and Blade: Warband.
+
+This game is one that I have been playing consistently for about six years. Originally released in 2010, M&B: Warband is a stand-alone expansion to the game Mount & Blade, and it improves upon the game in possibly every single way. You play the role as a random no-name, dropped into one of the six warring factions in Calradia, striving to make a name for themselves in the world. You go from town to town, doing various quests and recruiting villagers who wish to join you. Eventually, either by defeating bandits, doing quests for lords, or winning in tournaments at the various cities in the game, you will make a name for yourself. Want to declare war on every single faction in the game? No problem, just be prepared for the constant onslaught of enemy lords calling you an impudent whelp and attempting to crush you.
+
+The six factions are as follows: The Nords, reminiscent of the Vikings with their axes and huscarls. The Swadians, armed with possibly the strongest cavalry in the game, the Swadian Knights, and the worst ruler in the game, King Harlaus, who would rather call all his vassals back to the capital for a feast filled with butter instead of defending his towns. The Vaegirs, armed with possibly the best foot archers in the game, and wide-open snowy lands. The Rhodoks, who are possibly the best for large castle sieges as their crossbowmen are armed with heavy siege crossbows, and their lands are surrounded by hills and mountains, making invading them a difficult task. The Sarranids, reminiscent of the Arabians, who have cavalry to rival that of the Swadians with their mamlukes and camels. Finally, there are the Khergits, whose historical counterpart is inspired by Ghenghis Khan. Their troops specialize in horse archery and quickly running through the plains of their lands, firing upon those who would dare invade them.
+
+All in all, there are plenty of different cultures in the game to pick from, and you’re not locked to any one troop type. You can go between factions and get recruits from various villages within each location in Calradia.
+
+In this game, the grind is real. You will be beaten eventually, you will fall, your troops will die, you will be taken prisoner, thrown into dungeons, but you will live on. You can recover, and you can exact your vengeance upon those who wronged you. A very important thing to note is that there are two ways that saving can work in this game. When you finish character creation, you have the option between saving whenever you’d like, known as the “unrealistic saving,” for those of you who save scum, or “realistic saving” where you can only save the game when you exit. While at times the game can be frustrating due to it, I prefer the second option as it allows me to truly immerse myself within a game, and it makes me try fighting odds that I wouldn’t even attempt if I could just exit and avoid the encounter entirely. 
+
+Having this added danger makes the game more exciting to me, and while the game punishes you if you lose a battle, it is not so crippling that you will never rise back up. This game rewards you for persisting, and it is one of the greatest feelings to defeat the lord that has been giving you a hard time or to take a castle that you failed to take, or even just to siege your first castle. This game truly makes you feel like a badass soldier fighting against hordes of enemies, and the satisfaction of watching your cavalry charge against theirs is something that no other game can replicate for me.
+
+Now, why do I love this game so much? The short answer is mods, and the long answer is replayability. Mods in this game are more like complete overhauls. To name a few of the most popular: Perisno, Prophesy of Pendor, L’Aigle, and A Clash of Kings (a Game Of Thrones-inspired mod). These mods do so much for the game and are a huge reason as to why the game is still alive and kicking nine years after its release. If you don’t want a complete overhaul of the game, there are a few small quality of life mods such as Diplomacy, Floris (which can range from small to overhaul depending on the options you choose) and Vexed Native. 
+
+These mod creators have put in so much time and effort into their creations, and it truly does shine through. All of these mods and addons assist in the replayability of this game that I love so much. They each make me want to create a new character, try a different build, attempt a different playstyle, or be a vassal in a different kingdom. 
+
+This game is truly my favorite game of all time, but that doesn’t mean it’s without fault. The reputation system in this game is fairly underwhelming, as are the politics within the native game. The quests are painstaking bad at worst, and passable at best, and the way the castle sieges work leave a lot to be desired in some cases. Depending on the castle you siege, you may be forced to either build ladders or a siege tower. If you build a siege tower, prepare to spend 30-50 seconds simply waiting for it to crawl very slowly to the castle and drop its bridge. If you are very lucky, the defenders of the castle will run out to meet your assault, resulting in what I think to actually be one of the most fun parts of the game.
+
+Regardless of these faults, many of which can be fixed with modding or slight tweaking, this game remains at the top of my library, and it is a go-to whenever I’m bored and want some quick medieval combat, or whenever I am ready to invest myself into an hours-long gaming session. I truly recommend anyone who enjoys medieval/fantasy settings or sandbox RPGs to try out this game, as well as the many mods that are available on the Steam workshop and elsewhere on the internet.
+
+The only thing I have left to say is the same thing I’ve been asking for years: Bannerlord when?
