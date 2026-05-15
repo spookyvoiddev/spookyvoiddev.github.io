@@ -2,8 +2,50 @@
  * CV shared styles
  *****************************/
 
+// LinkedIn icon next to the CV page title. Color: theme accent on hover.
+.cv-social-link {
+  color: var(--global-text-color);
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  vertical-align: middle;
+  transition: color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
 // Bump position + company so each role pops at a glance.
 .cv {
+  // Date / location column on the left of each experience entry. Left-align
+  // the text and tighten the gap between this column and the role content.
+  .date-column {
+    text-align: left;
+    padding-right: 0;
+
+    .table-cv {
+      margin-left: 0;
+    }
+
+    .location {
+      text-align: left;
+      margin-bottom: 0.25rem;
+    }
+  }
+
+  // Pull role/company close to the date column; al-folio's defaults added
+  // ml-md-4 (1.5rem) on the heading which widened the gap.
+  .cv-content-column {
+    padding-left: 0.5rem;
+  }
+
+  .title,
+  .company-name {
+    margin-left: 0 !important;
+  }
+
   .title {
     font-size: 1.15rem;
     font-weight: 700;

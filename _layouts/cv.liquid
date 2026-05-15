@@ -17,6 +17,18 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
+      {% if page.linkedin %}
+        <a
+          href="https://www.linkedin.com/in/{{ page.linkedin }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right cv-social-link"
+          aria-label="LinkedIn profile"
+          title="LinkedIn profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      {% endif %}
       {% if page.cv_pdf %}
         <a
           {% if page.cv_pdf contains '://' %}
