@@ -22,4 +22,9 @@ latest_posts:
   limit: 5
 ---
 
-I'm **Dany Francis**, a Senior QA Tester at **Epic Games**. Outside of the day job, I design tabletop games and 5e battlemaps — published on itch.io and the Roll20 marketplace. More in [projects](/projects/) and on the [blog](/blog/).
+I'm **Dany Francis**, a Senior QA Tester at **Epic Games**. When I'm not at work, you can find me making battlemaps, playing one of my favorite games, _Crusader Kings III_, or maybe defending my five star rating of _Ratatouille_.
+
+More of my work can be found in [Projects](/projects/).
+More of my thoughts can be found in the [blog](/blog/), oh curious reader.
+
+Thanks for stopping by.
