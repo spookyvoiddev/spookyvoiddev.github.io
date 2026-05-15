@@ -235,7 +235,7 @@ ninja.data = [{
               window.location.href = "/projects/acolyte/";
             },},{id: "projects-lost-in-translation",
           title: 'Lost in Translation',
-          description: "Short choose-your-own-adventure game. Narrative and sound designer.",
+          description: "Short choose-your-own-adventure game. Writer and sound designer.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lost-in-translation/";
             },},{id: "projects-plane-disappointment",
@@ -245,7 +245,7 @@ ninja.data = [{
               window.location.href = "/projects/plane-disappointment/";
             },},{id: "projects-seventino-midnight-cafe",
           title: 'Seventino Midnight Cafe',
-          description: "Cooking game with hunting mechanic. Narrative designer.",
+          description: "Cooking game with hunting mechanic. Writer.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/seventino-midnight-cafe/";
             },},{id: "projects-ttrpg-battlemaps",
