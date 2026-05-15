@@ -21,12 +21,10 @@ env:
   DESKTOP_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --preset=desktop --throttling.cpuSlowdownMultiplier=1"
 
 # TRIGGERS
+# Disabled `page_build:` — requires a PAT in `secrets.token` to push generated
+# badges back to the repo and was failing on every Pages deploy. To re-enable,
+# configure a token and uncomment `page_build:`.
 on:
-  page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
-  #
-  # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
 
 ########################################################################

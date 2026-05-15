@@ -1,9 +1,8 @@
 name: Check for broken links on site
 
+# Disabled auto-trigger after every Deploy. Run on demand via the Actions tab.
 on:
-  workflow_run:
-    workflows: [Deploy site]
-    types: [completed]
+  workflow_dispatch:
 
 jobs:
   check-links-on-site:
