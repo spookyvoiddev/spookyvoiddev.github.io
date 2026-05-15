@@ -2,18 +2,24 @@
  * CV shared styles
  *****************************/
 
-// LinkedIn icon next to the CV page title. Color: theme accent on hover.
+// LinkedIn / social anchor inside the CV Profile card. Inherit body font
+// size for the URL text; bump only the icon so it reads as a brand mark.
 .cv-social-link {
   color: var(--global-text-color);
-  margin-left: 0.5rem;
-  font-size: 1.4rem;
-  vertical-align: middle;
   transition: color 0.15s ease;
+
+  > i {
+    font-size: 1.1rem;
+    margin-right: 0.35rem;
+    vertical-align: -0.05em;
+  }
 
   &:hover,
   &:focus {
     color: var(--global-theme-color);
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
   }
 }
 
