@@ -22,7 +22,7 @@ Most recently, I attempted to model out a very (very) basic example of the RTS, 
 
 Before I move on to discuss the general topic of game design tools, I encourage you to open up Machinations and give it a whirl. While I found there to be a lot of issues and bugs within the program, I currently don’t know of a tool like it.
 
-* * *
+---
 
 Game Design tools in general seem to be a kind of enigma to me. I have never had a good time with any tool, in part because I have the attention span of a goldfish and in part because these game design tools do a very terrible job of explaining how they work. Opening up an engine is a herculean task in and of itself. Many times these game design tools simply open up to a blank canvas with a seemingly endless amount of toys for you to play with, but to me, it’s all useless if I don’t know what any do.
 

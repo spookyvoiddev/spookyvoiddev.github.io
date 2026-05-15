@@ -16,14 +16,10 @@ Let’s got onto the actual mapmaking and my method of creating maps! My process
 
 **The Cavern of Yoruk’Tun**
 
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/groundfloor1.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/1below1.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/2below1.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/3below1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/groundfloor1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/1below1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/2below1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/3below1.png)
 
 The Cavern of Yoruk’Tun, the home of a den of cultists, is infested with spiders, bat-like alarm systems, and strange black crystals growing on the walls, was the first dungeon that I had my players go through in my latest adventure, Underlings. The corruption of the area continues to infest the air as the players delve deeper and deeper, indicated by the darker and darker red lighting.
 
@@ -31,19 +27,15 @@ Something important I want to mention is that maps need character! What do these
 
 **The Goobering Goblin**
 
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberinggoblinfinal.jp_.jpg)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberingundergroundfinal.jpg)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberinggoblinfinal.jp_.jpg)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberingundergroundfinal.jpg)
 
 Reusing the name of my one-shot is my inn, The Goobering Goblin. The Goobering Goblin serves as a safe-haven to my players, who are playing beastfolk characters within a large city.
 
 **Islesbury**
 
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburypreraidfinal-1.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburybattlemapfinal-1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburypreraidfinal-1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburybattlemapfinal-1.png)
 
 Islesbury, the aforementioned town, is under siege by a horde of beastfolk, led by a lizardman of the name Rurlox, who is assisted by the wizard Xander Julus. Islesbury is the most recent map I have made. It serves as the main location of Act 1, and I will soon be creating a follow-up map when the siege of the town occurs. Additionally, if the players do end up starting a combat within the city, I have a battlemap prepared. Always better to be prepared!
 

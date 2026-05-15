@@ -54,12 +54,9 @@ Personally, I think that this was a warranted change. Providing a regional map a
 
 It was my impression that it would be easiest to complete our tasks if we worked our way through the list from least amount of work required to the most amount of work required. Spells, items, and the early stages of monster ideation were first off our list. Sketches of the items and monsters were completed by the art team in record time.
 
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/cup-n-cloak.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/dagger-duo.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/rock-bird-transparent.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/cup-n-cloak.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/dagger-duo.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/rock-bird-transparent.png)
 
 These artist sketches quickly motivated us during the early stages of development, as this made our goals seem like tasks that were very much achievable. Each writer was tasked with designing two items of their own as well as drafting up spells. Writers who were well versed with the 5e ruleset took on multiple spells.
 
@@ -69,12 +66,9 @@ Monster creation began in earnest after the items and spells were completed and 
 
 Monsters were something that every group member was involved in. Artists were encouraged to sketch designs that they wanted to see, and writers were encouraged to create statblocks for theoretical creatures. This two-pronged attack into this task proved fruitful, as we had plenty of ideas _and_ sketches to begin refining our designs.
 
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/sand-myxini-sketch.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/jaweitaf-wip-1.png)
-- 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/facade-beasts-attempt-1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/sand-myxini-sketch.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/jaweitaf-wip-1.png)
+- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/facade-beasts-attempt-1.png)
 
 These monsters were quickly statted out by one of our writers, and then immediately put into playtests! We had one or two playtests each week, which were each incredibly helpful in terms of refining our work. The monsters shown above went through several changes, none of them major. Number tweaks, slight ability changes, and slight design changes were all included in the process of refining our designs. However, we wanted to maintain the identity of the initial designs as that was what we had fallen in love with in the first place.
 
