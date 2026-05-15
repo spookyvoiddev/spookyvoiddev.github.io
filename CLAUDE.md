@@ -45,16 +45,18 @@ This has bitten us multiple times. Pattern:
 
 These al-folio workflows are intentionally set to `workflow_dispatch:` only:
 
-| Workflow                | Why disabled                                                                 |
-| ----------------------- | ---------------------------------------------------------------------------- |
-| `lighthouse-badger.yml` | Needs a PAT in `secrets.token`; not configured.                              |
-| `render-cv.yml`         | Our `_data/cv.yml` uses al-folio's display subset, not full RenderCV schema. |
-| `update-citations.yml`  | No `_bibliography/papers.bib`.                                               |
-| `broken-links-site.yml` | Burns CI minutes after every deploy.                                         |
-| `update-tocs.yml`       | Caused the Prettier auto-commit loop (see above).                            |
+| Workflow                     | Why disabled                                                                 |
+| ---------------------------- | ---------------------------------------------------------------------------- |
+| `lighthouse-badger.yml`      | Needs a PAT in `secrets.token`; not configured.                              |
+| `render-cv.yml`              | Our `_data/cv.yml` uses al-folio's display subset, not full RenderCV schema. |
+| `update-citations.yml`       | No `_bibliography/papers.bib`.                                               |
+| `broken-links-site.yml`      | Burns CI minutes after every deploy.                                         |
+| `update-tocs.yml`            | Caused the Prettier auto-commit loop (see above).                            |
+| `copilot-setup-steps.yml`    | Only relevant when GitHub Copilot agent is wired up.                         |
+| `prettier-comment-on-pr.yml` | Single-author repo does not need automated PR comments.                      |
 
-Workflows kept enabled: `deploy.yml`, `prettier.yml`, `codeql.yml`,
-`copilot-setup-steps.yml`. Docker/broken-links/axe workflows have
+Workflows kept enabled: `deploy.yml`, `prettier.yml`, `codeql.yml`.
+Docker/broken-links/axe workflows have
 `if: github.repository_owner == 'alshedivat'` guards and skip silently.
 
 ## GitHub Pages source

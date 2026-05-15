@@ -1,8 +1,9 @@
 name: Comment on pull request
 
+# Disabled repository_dispatch; this single-author repo does not need automated
+# PR comments. Re-enable via the upstream type if collaborators are added.
 on:
-  repository_dispatch:
-    types: [prettier-failed-on-pr]
+  workflow_dispatch:
 
 jobs:
   comment:
