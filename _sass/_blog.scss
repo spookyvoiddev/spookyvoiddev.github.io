@@ -48,6 +48,7 @@
     content: " \2192"; // right arrow (→)
     display: inline-block;
     opacity: 0.55;
+    white-space: nowrap; // keep the arrow on the last word of the title
     transition:
       transform 0.18s ease,
       opacity 0.18s ease;
