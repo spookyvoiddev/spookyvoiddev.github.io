@@ -20,7 +20,9 @@
 // Bump position + company so each role pops at a glance.
 .cv {
   // Date / location column on the left of each experience entry. Left-align
-  // the text and tighten the gap between this column and the role content.
+  // the text. Indent the date badge so that its content edge lines up with
+  // the location text below; the location icon hangs in the gutter on the
+  // left, leaving the address text vertically flush with the date numerals.
   .date-column {
     text-align: left;
     padding-right: 0;
@@ -29,9 +31,23 @@
       margin-left: 0;
     }
 
+    // Shift date badge right by the icon width so that the date text begins
+    // at the same x as the location text.
+    .badge {
+      margin-left: 1.4rem;
+    }
+
     .location {
       text-align: left;
       margin-bottom: 0.25rem;
+      position: relative;
+      padding-left: 1.4rem;
+
+      .iconlocation {
+        position: absolute;
+        left: 0;
+        top: 0.3em;
+      }
     }
   }
 

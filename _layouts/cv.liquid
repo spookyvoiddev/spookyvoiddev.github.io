@@ -17,18 +17,6 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {{ page.title }}
-      {% if page.linkedin %}
-        <a
-          href="https://www.linkedin.com/in/{{ page.linkedin }}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right cv-social-link"
-          aria-label="LinkedIn profile"
-          title="LinkedIn profile"
-        >
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-      {% endif %}
       {% if page.cv_pdf %}
         <a
           {% if page.cv_pdf contains '://' %}
@@ -87,6 +75,22 @@ layout: default
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
                   <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+                </tr>
+              {% endif %}
+              {% if page.linkedin %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>LinkedIn</b></td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    <a
+                      href="https://www.linkedin.com/in/{{ page.linkedin }}"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="cv-social-link"
+                      aria-label="LinkedIn profile"
+                    >
+                      <i class="fa-brands fa-linkedin"></i> linkedin.com/in/{{ page.linkedin }}
+                    </a>
+                  </td>
                 </tr>
               {% endif %}
               {% if cv.email %}
