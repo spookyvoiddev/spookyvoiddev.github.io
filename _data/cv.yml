@@ -50,14 +50,6 @@ cv:
         start_date: 2018
         end_date: 2022
 
-    Projects:
-      - name: "Acolyte (2021)"
-        url: https://hiddendevslug.itch.io/acolyte
-      - name: "Wanderer's Guide to Prosgia (2022)"
-        url: https://hiddendevslug.itch.io/wanderers-guide-to-prosgia
-      - name: "Ironstone Press — Roll20 Marketplace (2022–present)"
-        url: https://marketplace.roll20.net/
-
   social_networks: []
 
   address:
