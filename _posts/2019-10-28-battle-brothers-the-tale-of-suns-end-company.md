@@ -2,7 +2,6 @@
 layout: post
 title: "Battle Brothers – The Tale of Sun’s End Company"
 date: 2019-10-28 23:34:58 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 tags:
   - "Battle brothers"
   - "Game Design"

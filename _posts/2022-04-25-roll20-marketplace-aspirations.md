@@ -2,7 +2,6 @@
 layout: post
 title: "Roll20 Marketplace Aspirations"
 date: 2022-04-25 18:28:32 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/desert-map-pack-49fccd.png
 ---
 

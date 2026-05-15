@@ -2,7 +2,6 @@
 layout: post
 title: "Dungeondraft, Mapmaking, and Adventure Design"
 date: 2020-08-10 18:38:59 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/groundfloor1-8f9e6d.png
 ---
 

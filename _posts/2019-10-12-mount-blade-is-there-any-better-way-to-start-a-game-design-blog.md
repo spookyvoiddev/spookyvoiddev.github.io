@@ -2,7 +2,6 @@
 layout: post
 title: "Mount & Blade: The Ultimate Medieval/Low-Fantasy Sandbox"
 date: 2019-10-12 23:50:05 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 tags:
   - "Entertainment"
   - "Game Design"

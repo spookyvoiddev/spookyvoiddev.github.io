@@ -2,7 +2,6 @@
 layout: post
 title: "First Ever Encounter!"
 date: 2019-11-05 04:48:06 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 ---
 
 Hey there all! Very excited to share with you the very first piece of writing I have ever done for a DnD adventure!

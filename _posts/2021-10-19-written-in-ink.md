@@ -2,7 +2,6 @@
 layout: post
 title: "Written In Ink"
 date: 2021-10-19 21:58:37 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 ---
 
 It’s been a while my friends! I’ve been swamped with work for my Senior Capstone class! Today’s post is about Ink and learning new software. [Ink](https://www.inklestudios.com/ink/), “A Narrative Scripting Language For Games,” is an extremely powerful tool for creating large narratives. Introduced to me through my capstone, I found Ink to be frustrating at first and then quickly more useful for my purposes than other narrative design software such as Twine.

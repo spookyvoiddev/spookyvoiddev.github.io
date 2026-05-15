@@ -2,7 +2,6 @@
 layout: post
 title: "Acolyte Postmortem"
 date: 2021-05-22 21:44:10 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/acolytenewpopularfrontedited-f75ca6.png
 ---
 

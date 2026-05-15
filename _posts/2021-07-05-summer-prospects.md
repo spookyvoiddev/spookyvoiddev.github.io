@@ -2,7 +2,6 @@
 layout: post
 title: "Summer Prospects"
 date: 2021-07-05 17:22:23 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/seconddraftcoverart-40e987.jpg
 ---
 

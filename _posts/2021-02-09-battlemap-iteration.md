@@ -2,7 +2,6 @@
 layout: post
 title: "Battlemap Iteration"
 date: 2021-02-09 03:16:21 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/islesburypreraidfinal-68e90f.png
 ---
 

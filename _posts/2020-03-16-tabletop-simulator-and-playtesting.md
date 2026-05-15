@@ -2,7 +2,6 @@
 layout: post
 title: "Tabletop Simulator and Playtesting"
 date: 2020-03-16 19:09:35 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 ---
 
 With COVID-19, many of us have found ourselves working remotely and from the comfort of our homes. For game developers, this can be challenging as working with another human is one of the main parts of development! It especially is so for me, I love human interaction, and I found myself lacking that during this self-quarantine we are all undergoing.

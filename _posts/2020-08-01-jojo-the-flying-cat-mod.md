@@ -2,7 +2,6 @@
 layout: post
 title: "Jojo, The Flying Cat Mod"
 date: 2020-08-01 19:20:52 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/tmodloader_2020-08-01_12-09-23-b555a1.png
 ---
 

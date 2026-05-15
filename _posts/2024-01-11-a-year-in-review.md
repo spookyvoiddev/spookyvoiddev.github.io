@@ -2,7 +2,6 @@
 layout: post
 title: "A Year In Review"
 date: 2024-01-11 06:22:06 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 tags:
   - "Gaming"
   - "personal"

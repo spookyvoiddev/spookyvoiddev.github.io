@@ -2,7 +2,6 @@
 layout: post
 title: "Godot and Game Development"
 date: 2020-12-15 22:11:32 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/fksdvh3pg1-1-7927af.gif
 ---
 

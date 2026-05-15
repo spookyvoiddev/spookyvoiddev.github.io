@@ -2,7 +2,6 @@
 layout: post
 title: "Marianne’s Paralogue and Character Expectations"
 date: 2019-11-25 19:01:20 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 tags:
   - "design"
   - "fire emblem"

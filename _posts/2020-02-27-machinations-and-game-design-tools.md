@@ -2,7 +2,6 @@
 layout: post
 title: "Machinations and Game Design Tools"
 date: 2020-02-27 19:25:07 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 thumbnail: /assets/img/posts/image-94b1a7.png
 ---
 

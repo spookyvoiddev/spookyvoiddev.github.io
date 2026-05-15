@@ -52,11 +52,11 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false # static at end of page on all viewports; was sticky on mobile.
 search_enabled: true
-socials_in_search: true
+socials_in_search: false # no public socials configured; was surfacing al-folio template placeholders.
 posts_in_search: true
-bib_search: true
+bib_search: false # no _bibliography/papers.bib in this site.
 
 # Dimensions
 max_width: 930px

@@ -2,7 +2,6 @@
 layout: post
 title: "Wanderer’s Guide to Prosgia"
 date: 2022-03-15 20:13:33 +0000
-description: "Migrated from youcanclickl3.wordpress.com"
 tags:
   - "design"
   - "dungeons and dragons"
