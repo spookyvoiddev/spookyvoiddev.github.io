@@ -25,8 +25,22 @@ body.fixed-top-nav {
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
+  // Footer is not fixed; use a flex column so the footer always sits at the
+  // bottom of the viewport on short pages and immediately after content on
+  // long ones. Avoids the empty viewport region we used to see when content
+  // was short.
   padding-bottom: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  > .container {
+    flex: 1 0 auto;
+  }
+
+  > footer {
+    flex-shrink: 0;
+  }
 }
 
 .container {
