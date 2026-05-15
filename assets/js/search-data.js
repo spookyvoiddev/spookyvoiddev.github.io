@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "Tabletop and digital games. Designer, narrative, audio, and creative-lead work.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
