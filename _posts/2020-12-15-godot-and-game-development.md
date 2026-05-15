@@ -3,7 +3,7 @@ layout: post
 title: "Godot and Game Development"
 date: 2020-12-15 22:11:32 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2020/12/fksdvh3pg1-1.gif
+thumbnail: /assets/img/posts/fksdvh3pg1-1-7927af.gif
 ---
 
 Well, it’s been some time since I’ve written and I’ve decided to write again. (Incredible commentary, I know.)
@@ -16,6 +16,6 @@ Now I find myself halfway through a month long winter game jam, using Godot as m
 
 A friend, a stranger, and I are working together to bring a gameboy era inspired game to itch.io using Godot, and I personally think it’s going pretty well for our first ever game.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/12/fksdvh3pg1-1.gif)
+![](/assets/img/posts/fksdvh3pg1-1-7927af.gif)
 
 Programmed by yours truly, using plenty of resources from the internet that I have honestly lost track of. It’ll be hosted on my Itch page when completed (and I’ll be making another post,) but for now, that’s all folks!

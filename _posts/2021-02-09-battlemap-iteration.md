@@ -3,14 +3,14 @@ layout: post
 title: "Battlemap Iteration"
 date: 2021-02-09 03:16:21 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2021/02/islesburypreraidfinal.png
+thumbnail: /assets/img/posts/islesburypreraidfinal-68e90f.png
 ---
 
 Welcome friends and strangers alike to a new post by yours truly! Today I’ll be talking about my battlemap escapades and what I have learned over the past few months while fiddling with [Dungeondraft](https://dungeondraft.net/), a piece of software I’ve touted in the past as one of the best map-creation tools for TTRPGs. Spoiler alert, it still is.
 
 To begin, let’s take a look at one of my first maps: the town of Islesbury.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/02/islesburypreraidfinal.png)
+![](/assets/img/posts/islesburypreraidfinal-68e90f.png)
 _Old and dusty!_
 
 While I am not disappointed nor am I ashamed of this battlemap, there was a lot I could have improved upon. A few things of note being: the walls appear to be floating on water, I’m not sure if this is how walls work! The city buildings also appear under-water in the sections of the town that the water cuts through. The fields around the city also appear quite barren, when I really wanted to convey the density of the forests as well as the farmland.
@@ -19,19 +19,19 @@ At this point in the story, Islesbury was still a human civilization, not yet ra
 
 These were my grievances with the older design of Islesbury, and now that my players have betrayed their own army (insane, isn’t it?) they are preparing to take it over again, with the help of another force. Unbeknownst to them, while they were out adventuring and away from home, their city was raided and taken over by an foreign invasion force. The following map is this re-imagining of the city, and one I am quite proud of. (At least, currently.)
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/02/islesbury45x35highres.png)
+![](/assets/img/posts/islesbury45x35highres-77c521.png)
 _New and improved! [45×35]_
 
 Now, this is a city map! Farms on the outskirts of the walls, the small hints of snow to foreshadow the White Dragon that has been stalking my players (of course, they betrayed the dragon, and killed one of its spawn,) the river passing through the center of town. It is what I imagined Islesbury looking like in my head those many months ago, I simply lacked the skills and technique to make it a reality.
 
 The overworld of Islesbury is not the only thing that got a makeover. If you remember (or if you’re a particularly perceptive individual,) you might have noticed that I posted a battlemap for this town at around the same time I created the map.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/02/islesburybattlemapfinal.png)
+![](/assets/img/posts/islesburybattlemapfinal-89eeaf.png)
 _Old, and dusty!_
 
 Now this battlemap… is not as easy to sing its praises for. It is quite barren and… flat. While it served its purpose at the time as a quick battlemap, I knew that I needed to give it a makeover as well.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/02/islesbury35x20battlemap1highres.png)
+![](/assets/img/posts/islesbury35x20battlemap1highres-cb75d7.png)
 _New, and improved! [35×20]_
 
 This new battlemap is much more what I had in mind when creating the previous one, and again thanks to my newfound skills and techniques I discovered, my favorite of which is double-walling my buildings in order to make them a bit thicker and more natural, I have managed to create something I am proud of. This map is much more dynamic, and tells a story. There is a blacksmith, a baker, a musician, as well as a building filled with broken glass and pottery, representing the history of the town.

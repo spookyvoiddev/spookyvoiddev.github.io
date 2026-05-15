@@ -3,7 +3,7 @@ layout: post
 title: "Dungeondraft, Mapmaking, and Adventure Design"
 date: 2020-08-10 18:38:59 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/groundfloor1.png
+thumbnail: /assets/img/posts/groundfloor1-8f9e6d.png
 ---
 
 Hey friends! Another new post by yours truly, Dany Francis. During this summer, I have spent a lot of my time playing D&D with my friends. As a permanent DM who has had to switch to online, I have really taken a liking to creating my own battlemaps as opposed to finding them online.
@@ -16,10 +16,10 @@ Let’s got onto the actual mapmaking and my method of creating maps! My process
 
 **The Cavern of Yoruk’Tun**
 
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/groundfloor1.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/1below1.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/2below1.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/3below1.png)
+- ![](/assets/img/posts/groundfloor1-8f9e6d.png)
+- ![](/assets/img/posts/1below1-2b435b.png)
+- ![](/assets/img/posts/2below1-c59f31.png)
+- ![](/assets/img/posts/3below1-dc1841.png)
 
 The Cavern of Yoruk’Tun, the home of a den of cultists, is infested with spiders, bat-like alarm systems, and strange black crystals growing on the walls, was the first dungeon that I had my players go through in my latest adventure, Underlings. The corruption of the area continues to infest the air as the players delve deeper and deeper, indicated by the darker and darker red lighting.
 
@@ -27,21 +27,21 @@ Something important I want to mention is that maps need character! What do these
 
 **The Goobering Goblin**
 
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberinggoblinfinal.jp_.jpg)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/gooberingundergroundfinal.jpg)
+- ![](/assets/img/posts/gooberinggoblinfinal.jp_-857c61.jpg)
+- ![](/assets/img/posts/gooberingundergroundfinal-59d6a5.jpg)
 
 Reusing the name of my one-shot is my inn, The Goobering Goblin. The Goobering Goblin serves as a safe-haven to my players, who are playing beastfolk characters within a large city.
 
 **Islesbury**
 
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburypreraidfinal-1.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/islesburybattlemapfinal-1.png)
+- ![](/assets/img/posts/islesburypreraidfinal-1-02f8ac.png)
+- ![](/assets/img/posts/islesburybattlemapfinal-1-2aee15.png)
 
 Islesbury, the aforementioned town, is under siege by a horde of beastfolk, led by a lizardman of the name Rurlox, who is assisted by the wizard Xander Julus. Islesbury is the most recent map I have made. It serves as the main location of Act 1, and I will soon be creating a follow-up map when the siege of the town occurs. Additionally, if the players do end up starting a combat within the city, I have a battlemap prepared. Always better to be prepared!
 
 **The Den**
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/08/dendungeon2.png)
+![](/assets/img/posts/dendungeon2-e9a06b.png)
 
 The Den, the home base of the players, is where they spend most of their time when not adventuring. Populated by kobolds, lizardmen, bugbears, ratfolk, goblins, and all other sorts of beastfolk, The Den is a hidden cave near Islesbury, which gives them opportunity to cut off supply lines. There are various foodstuffs on the map, a collapsed section of the cave at (2), as well as light sources around (4) for those in the army who lack darkvision.
 

@@ -11,7 +11,7 @@ tags:
   - "Gaming"
   - "mission design"
   - "quest design"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/prosgia-1.jpg
+thumbnail: /assets/img/posts/prosgia-1-5b34e7.jpg
 ---
 
 ## Postmortem & Reflection
@@ -45,7 +45,7 @@ When pitching the project ([see the pitch deck here](https://docs.google.com/pre
 
 In a project group of 10, with 5 writers, 4 artists, and a producer, this list of features proved feasible, but not without some compromises. Right off the bat, we had to eschew the city map for instead a regional map.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/prosgia-1.jpg)
+![](/assets/img/posts/prosgia-1-5b34e7.jpg)
 _Regional map of Prosgia!_
 
 Personally, I think that this was a warranted change. Providing a regional map allows for more varied adventures, as we can list things on the map that we haven’t necessarily written content for. The Verdant Divide is one such location.
@@ -54,9 +54,9 @@ Personally, I think that this was a warranted change. Providing a regional map a
 
 It was my impression that it would be easiest to complete our tasks if we worked our way through the list from least amount of work required to the most amount of work required. Spells, items, and the early stages of monster ideation were first off our list. Sketches of the items and monsters were completed by the art team in record time.
 
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/cup-n-cloak.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/dagger-duo.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/rock-bird-transparent.png)
+- ![](/assets/img/posts/cup-n-cloak-f2ad99.png)
+- ![](/assets/img/posts/dagger-duo-8bf68a.png)
+- ![](/assets/img/posts/rock-bird-transparent-5aafb7.png)
 
 These artist sketches quickly motivated us during the early stages of development, as this made our goals seem like tasks that were very much achievable. Each writer was tasked with designing two items of their own as well as drafting up spells. Writers who were well versed with the 5e ruleset took on multiple spells.
 
@@ -66,9 +66,9 @@ Monster creation began in earnest after the items and spells were completed and 
 
 Monsters were something that every group member was involved in. Artists were encouraged to sketch designs that they wanted to see, and writers were encouraged to create statblocks for theoretical creatures. This two-pronged attack into this task proved fruitful, as we had plenty of ideas _and_ sketches to begin refining our designs.
 
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/sand-myxini-sketch.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/jaweitaf-wip-1.png)
-- ![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/facade-beasts-attempt-1.png)
+- ![](/assets/img/posts/sand-myxini-sketch-13f3f3.png)
+- ![](/assets/img/posts/jaweitaf-wip-1-9b5874.png)
+- ![](/assets/img/posts/facade-beasts-attempt-1-37ab60.png)
 
 These monsters were quickly statted out by one of our writers, and then immediately put into playtests! We had one or two playtests each week, which were each incredibly helpful in terms of refining our work. The monsters shown above went through several changes, none of them major. Number tweaks, slight ability changes, and slight design changes were all included in the process of refining our designs. However, we wanted to maintain the identity of the initial designs as that was what we had fallen in love with in the first place.
 
@@ -96,7 +96,7 @@ As we reached the due date of our project, we felt very confident. We had finish
 
 To commemorate this launch, we decided to finally meet in person! You heard that right, we were working remotely on this project the ENTIRE time!
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/03/image.png)
+![](/assets/img/posts/image-6d34a8.png)
 _From left to right: Avery Knowlton, Dany Francis (me!), Ethan Michaels, Autumn Wolverton, Matthew Hamm, Stan Caldwell, Ethan Chen_
 
 It was an incredible delight to meet our team in person. We spent this time playing our own game, with Ethan as our DM!

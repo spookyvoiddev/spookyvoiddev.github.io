@@ -8,10 +8,10 @@ tags:
   - "Game Design"
   - "Gaming"
   - "video game"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2019/10/battle-brothers-c.jpg
+thumbnail: /assets/img/posts/battle-brothers-c-094284.jpg
 ---
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2019/10/battle-brothers-c.jpg)
+![](/assets/img/posts/battle-brothers-c-094284.jpg)
 
 Battle Brothers is a game that released in 2017 by Overhype Studios. You take the role as the leader of a band of no-so-merry men who set out to become a mercenary company, doing contracts for the various rulers of villages and nobles in whatever randomly generated world you’re put into. An unforgiving game reminiscent of Darkest Dungeon, Battle Brothers will punish you. Hard. Your troops will die, RNG will fail you, and you will be frustrated and angry. You will learn the names of your men who run away at the slightest inclination that you will lose the battle, the names of men who will fight to the last breath, and the names of the men who will become your saviors when the day looks lost. This is the tale of my playthrough, the Sun’s End Company.
 
@@ -29,7 +29,7 @@ At this point, I was pretty upset. Not only had I lost my strongest man, but I h
 
 After many caravan contracts, delivery contracts, and exploration contracts, I finally felt strong enough to raid a bandit camp. With my company now seven strong, armed with flails, shields, two giant battleaxes, and a spear, I felt that I could handle a small group of brigands. I had learned from my previous mistakes and I sent in the shieldbearers first, making a line of men holding shieldwalls as my spearman poked at the enemy from behind the line of cover. My men with axes quickly surrounded the enemy and used the aptly named ability “Split Man,” to indeed, split a man.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2019/10/1565439308_battle-brothers.jpg)
+![](/assets/img/posts/1565439308_battle-brothers-a62934.jpg)
 
 I had done it, the enemy was breaking, their troops were scattered, and my troops were high in morale. They raised our company banner and rallied to it. I could hear their shouts and battle cries as they charged in. My successor to the two-handed flail bearer from earlier, named Borat “Skull-Drinker” charged in and provided justice for his fallen brother, quickly smashing in the body of a bandit. The enemy soon raised their white flag and ran, leaving their equipment and goods behind. The day was mine, and Sun’s End Company celebrated by going to the nearest village, tending to their wounds at the temple, and getting absurdly drunk at the local tavern.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Roll20 Marketplace Aspirations"
 date: 2022-04-25 18:28:32 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2022/04/desert-map-pack.png
+thumbnail: /assets/img/posts/desert-map-pack-49fccd.png
 ---
 
 Hello friends! Your favorite designer is back again with more tales from quarantine. Today, I’ll be discussing Roll20’s marketplace and my personal aspirations to become a Marketplace Creator!
@@ -16,7 +16,7 @@ Seeing as I have an extensive collection of battlemaps/worldmaps already created
 
 After becoming an approved creator, the task of creating an item and posting it to the marketplace was next. While not difficult, it did require that I flexed my photoshop muscles to create a cover image, as well as come up with a name that I would use on the marketplace. Thus, Ironstone Press was born!
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2022/04/desert-map-pack.png)
+![](/assets/img/posts/desert-map-pack-49fccd.png)
 
 I had difficulty selecting between Ironstone Press and Sandstone Press, as both definitely have their appeal. Who knows, maybe Sandstone Press will become a sister entity!
 

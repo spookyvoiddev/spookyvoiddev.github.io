@@ -3,19 +3,19 @@ layout: post
 title: "Acolyte Postmortem"
 date: 2021-05-22 21:44:10 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2021/05/acolytenewpopularfrontedited.png
+thumbnail: /assets/img/posts/acolytenewpopularfrontedited-f75ca6.png
 ---
 
 My initial designs for Acolyte were inspired by a lack of creative freedom and frustrating in the game that I was playing at the time: Pathfinder. Pathfinder, a system that rewards players who spend plenty of time reading up on rules and mechanics and feats, can be frustrating to play if you want a character to be more of a “jack of all trades,” as Pathfinder heavily encourages you to specialize. This frustration made me want to create something that allowed freeform gameplay, without many restrictions on what the player can do. If they can think it, they can try it.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/05/acolytenewpopularfrontedited.png)
+![](/assets/img/posts/acolytenewpopularfrontedited-f75ca6.png)
 _Acolyte on the front of the New & Popular section of Itch.io_
 
 Acolyte was also heavily inspired by Lasers & Feelings, which I had played for the first time only a week or two before writing the first draft of Acolyte. I borrow a lot of design elements from Lasers & Feelings, namely the adventure creation table as well as the dice rolling mechanic. These two in tangent made it easy for quick and fun games to be created, albeit ones that focused heavily on player improvisation rather than structured gameplay.
 
 My frustration with Pathfinder and the joy that I found within Lasers & Feelings worked their way into my designs in the form of slightly nudging the players and storyteller to let loose a little bit, and to not take it _too_ seriously. A sort of light-hearted tone that could still service as a method of delivering the instructions to the player is what my intention is with the prose of the game. The art, drawn fantastically by my friend Sam Mercado, also aids in this purpose with comedic and cute images adorning the pages of the game.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2021/05/page3promo.png)
+![](/assets/img/posts/page3promo-ad3839.png)
 _Dice rolls, the unknown, and wizards! What’s not to love?_
 
 I am quite proud of what I created. It made it quickly to the top of the physical games list on [Itch.io](https://hiddendevslug.itch.io/acolyte). It additionally has already turned a profit (my first game to ever do so, by the way,) and the support I received during the launch was phenomenal. Acolyte turned out exactly as my vision of it was, and that makes me happy.

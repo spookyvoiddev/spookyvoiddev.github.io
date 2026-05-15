@@ -3,19 +3,19 @@ layout: post
 title: "Machinations and Game Design Tools"
 date: 2020-02-27 19:25:07 +0000
 description: "Migrated from youcanclickl3.wordpress.com"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2020/02/image.png
+thumbnail: /assets/img/posts/image-94b1a7.png
 ---
 
 [Machinations](https://machinations.io/) is a game design tool (no I’m not sponsored but I would love to be) aimed to help designers and game developers model out their systems before development. What an amazing idea! In this post, I’ll be sharing some of my designs as I begin to practice and learn the tool. We are currently using this in my class (Game Systems,) so it also seems appropriate to explain how we are relating that to my class.
 
 Let’s begin with my first Machination, [a simple diagram of a car with bad MPG](https://my.machinations.io/public/Costco-Gas-with-a-Prius/051f98c4016596ae2b8765e31498a535d). It’s not very well done, and the end state condition could use a bit of work, but it worked enough as a basis for me to continue. You can interact with these, so make sure you click the “Go to work” node to actually see it in action (or any node with an inner outline.)
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/02/image.png)
+![](/assets/img/posts/image-94b1a7.png)
 _Welcome to the Dungeon (rough)_
 
 Moving on, we (my group and I for class) were assigned the game, “[Welcome to the Dungeon](https://boardgamegeek.com/boardgame/150312/welcome-dungeon),” an amazing tabletop game based around chickening out of the very intimidating dungeon. It honestly surprised me by how complex it turned out being, despite the small amount of pieces included in the box. Creating our [Machination](https://my.machinations.io/public/Welcome-to-the-Dungeon/0fe0c6f8e160c37e6403c62b716209728)for this game took quite a while, as we weren’t really sure how the tool itself actually worked, and we found that the double or triple uses for some nodes and connectors actually hindering us, as it wasn’t very clear what we could use each node for.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2020/02/image-1.png)
+![](/assets/img/posts/image-1-9520bb.png)
 _Command & Conquer_
 
 Most recently, I attempted to model out a very (very) basic example of the RTS, “Command & Conquer.” Personally one of my favorite RTS’s, and one of the first video games I ever played. My Machination for this is a bit rough around the edges, and only displays the very basic system of creating different types of units and one type of building. Given a bit more time, this [Machination](https://my.machinations.io/public/Command-/074d6a37f47201d72ea0e2c8cfd9710eb)would expand to include combat, and upgrading of units, as well as a queue for unit creation.

@@ -7,7 +7,7 @@ tags:
   - "Gaming"
   - "personal"
   - "writing"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2024/01/image.png
+thumbnail: /assets/img/posts/image-ba730f.png
 ---
 
 Well, it’s been quite a while since I’ve posted here! Thank you to my _one_ monthly reader. I see you. I suppose it’s only fair that I update you. You’ve been so faithful, after all!
@@ -16,7 +16,7 @@ Back in April 2022, I made a post discussing my (at the time) recent Roll20 mark
 
 Throughout the process, I had been searching for jobs in the industry. Thankfully, and luckily, the search did not take too long! In just a few short months, I managed to find a QA position at a company that profoundly impacted my childhood. What are the odds?!
 
-![The Behemoth Chicken logo](https://youcanclickl3.wordpress.com/wp-content/uploads/2024/01/image.png)
+![The Behemoth Chicken logo](/assets/img/posts/image-ba730f.png)
 _The Behemoth!_
 
 The Behemoth swooped in (ha!) and took my life for a change! No longer employed at Burlington, I quickly began my first job in the games industry. At Behemoth, I got to work on a few games that I am really happy with the production value and quality of. Alien Hominid Invasion, our newest title (Released on most platforms last November,) and the remaster of Alien Hominid HD were both incredible experiences to learn and ship.

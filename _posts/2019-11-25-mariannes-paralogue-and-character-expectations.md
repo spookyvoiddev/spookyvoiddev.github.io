@@ -11,7 +11,7 @@ tags:
   - "nintendo switch"
   - "quest design"
   - "switch"
-thumbnail: https://youcanclickl3.wordpress.com/wp-content/uploads/2019/11/tumblr_30b2a86d378dc0409be86296752484a6_8e214ae8_540.jpg
+thumbnail: /assets/img/posts/tumblr_30b2a86d378dc0409be86296752484a6_8e214ae8_540-159ef1.jpg
 ---
 
 While most missions in _Fire Emblem: Three Houses_ begin with Byleth (you) as the main character of the story, Marianne’s Paralogue begins a little differently. While walking through the monastery, you find a peasant harassing your student, Marianne, a student that’s known to be quite delicate and soft. She quickly calls you over and asks for help. As the righteous hero, you scare the peasant away. However, before doing so, he drops a bombshell: Marianne is accused of being a literal monster that drags away and feasts on villagers within the territory.
@@ -20,7 +20,7 @@ Marianne then reveals to you that her Crest (think inherent power given via bloo
 
 You are there at night because the beast only appears at night. You don’t know exactly what you’re fighting, but you’ve fought Black Beasts before. Generally, each one has about three health bars and various attacks that can hit multiple units; it’s not like you can simply on shot this thing and move on with your day. To make things worse, the map is covered in fog of war and tall brush. Meaning, you can’t see any unit 5 tiles away from your own, and the is defensive terrain for all units except flying units. So far, the odds are stacked against you. The Wandering Beast (hereby referred to as “Maurice”) has four health bars and is one of the strongest Black Beasts in the game. Oh, and to make the difficulty even harder, Marianne spawns right next to Maurice, on the opposite corner of the map from where the rest of your units spawn.
 
-![](https://youcanclickl3.wordpress.com/wp-content/uploads/2019/11/tumblr_30b2a86d378dc0409be86296752484a6_8e214ae8_540.jpg)
+![](/assets/img/posts/tumblr_30b2a86d378dc0409be86296752484a6_8e214ae8_540-159ef1.jpg)
 
 So, now not only do you have to make sure Marianne can evade all of Maurice’s attacks, but you also have to get her back to the rest of your party, all while avoiding the swarm of Black Beasts on the map. In a pre-combat cutscene, Maurice states, “This forest is the den of Demonic Beasts. You will be lucky to make it out alive.” And he doesn’t lie. This level is hard. The Demonic Beasts are immune to various kinds of attacks, so some units will simply be useless. Other times, Marianne will die and the mission will restart. Or, if you are playing on “Classic” difficulty, a game mode that enables permadeath, you might be like me and restart every time any unit dies.
 

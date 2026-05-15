@@ -11,7 +11,10 @@ cv:
         url: https://www.epicgames.com/
         start_date: 2025-12
         end_date: Present
-        summary: Promoted from Tester II. Gameplay QA foundations; currently expanding into engagement systems, UI/UX, and persistence/backend domains.
+        highlights:
+          - "**Credited:**"
+          - "Fortnite: Battle Royale"
+          - "Fortnite: Blitz Royale"
 
       - company: Epic Games
         position: Tester II
@@ -19,7 +22,9 @@ cv:
         url: https://www.epicgames.com/
         start_date: 2024-10
         end_date: 2025-11
-        summary: First role at Epic Games.
+        highlights:
+          - "**Credited:**"
+          - "Fortnite: Battle Royale"
 
       - company: The Behemoth
         position: Quality Assurance Specialist
@@ -27,18 +32,17 @@ cv:
         url: https://www.thebehemoth.com/
         start_date: 2022-11
         end_date: 2024-03
-        summary: Shipped on three titles across QA cycles.
         highlights:
-          - "Credits: Alien Hominid Invasion"
-          - "Credits: Alien Hominid HD"
-          - "Credits: BattleBlock Theater Remastered"
+          - "**Credited:**"
+          - "Alien Hominid Invasion"
+          - "Alien Hominid HD"
+          - "BattleBlock Theater Remastered"
 
       - company: MACHINE Studios
         position: Game Design / Production Intern
         location: San Diego, CA
         start_date: 2017-05
         end_date: 2018-09
-        summary: Two summer internships (2017, 2018) at an indie studio shipping across console, mobile, and browser. Supported design and production on a freemium iOS/Android city-builder / production-chain title. Layout and wireframe design, content design, Agile/Scrum collaboration with producers, artists, and engineers, and process/pipeline documentation.
 
     Education:
       - institution: University of California, Santa Cruz
@@ -52,15 +56,10 @@ cv:
     Projects:
       - name: "Acolyte (2021)"
         url: https://hiddendevslug.itch.io/acolyte
-        summary: Comedy TTRPG about apprentice wizards. Reached the front of Itch.io's New & Popular section.
-
       - name: "Wanderer's Guide to Prosgia (2022)"
         url: https://hiddendevslug.itch.io/wanderers-guide-to-prosgia
-        summary: 5th-edition D&D supplement led with a 10-person team. Creative lead on battlemaps, monsters, spells, items, backgrounds, and subclasses.
-
       - name: "Ironstone Press — Roll20 Marketplace (2022–present)"
         url: https://marketplace.roll20.net/
-        summary: Solo battlemap publishing imprint.
 
   social_networks: []
 
