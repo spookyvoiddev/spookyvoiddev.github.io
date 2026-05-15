@@ -66,7 +66,7 @@
             {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
           {% endcapture %}
           {% if company_name != '' %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ company_name }}</h6>
+            <h6 class="company-name ml-1 ml-md-4">{{ company_name }}</h6>
           {% endif %}
 
           {% if entry.summary %}
@@ -75,7 +75,16 @@
             </h6>
           {% endif %}
 
-          {% if entry.highlights %}
+          {% if entry.credits and entry.credits.size > 0 %}
+            <h6 class="credited-label ml-1 ml-md-4">Credited</h6>
+            <ul class="items credited-list">
+              {% for item in entry.credits %}
+                <li>
+                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                </li>
+              {% endfor %}
+            </ul>
+          {% elsif entry.highlights %}
             <ul class="items">
               {% for item in entry.highlights %}
                 <li>

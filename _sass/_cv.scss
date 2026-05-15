@@ -2,6 +2,38 @@
  * CV shared styles
  *****************************/
 
+// Bump position + company so each role pops at a glance.
+.cv {
+  .title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.15rem;
+  }
+
+  // Company name (explicit class so we don't accidentally style a sibling h6
+  // such as the optional italic summary line).
+  .company-name {
+    color: var(--global-theme-color);
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .credited-label {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--global-text-color-light);
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .credited-list {
+    margin-top: 0;
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }

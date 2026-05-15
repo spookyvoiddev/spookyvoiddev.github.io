@@ -11,8 +11,7 @@ cv:
         url: https://www.epicgames.com/
         start_date: 2025-12
         end_date: Present
-        highlights:
-          - "**Credited:**"
+        credits:
           - "Fortnite: Battle Royale"
           - "Fortnite: Blitz Royale"
 
@@ -22,8 +21,7 @@ cv:
         url: https://www.epicgames.com/
         start_date: 2024-10
         end_date: 2025-11
-        highlights:
-          - "**Credited:**"
+        credits:
           - "Fortnite: Battle Royale"
 
       - company: The Behemoth
@@ -32,8 +30,7 @@ cv:
         url: https://www.thebehemoth.com/
         start_date: 2022-11
         end_date: 2024-03
-        highlights:
-          - "**Credited:**"
+        credits:
           - "Alien Hominid Invasion"
           - "Alien Hominid HD"
           - "BattleBlock Theater Remastered"
