@@ -34,7 +34,7 @@ ninja.data = [{
         
           title: "A Year In Review",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -45,7 +45,7 @@ ninja.data = [{
         
           title: "Roll20 Marketplace Aspirations",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -56,7 +56,7 @@ ninja.data = [{
         
           title: "Wanderer’s Guide to Prosgia",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -67,7 +67,7 @@ ninja.data = [{
         
           title: "Written In Ink",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -78,7 +78,7 @@ ninja.data = [{
         
           title: "Summer Prospects",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -89,7 +89,7 @@ ninja.data = [{
         
           title: "Acolyte Postmortem",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -100,7 +100,7 @@ ninja.data = [{
         
           title: "Acolyte",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -111,7 +111,7 @@ ninja.data = [{
         
           title: "Battlemap Iteration",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -122,7 +122,7 @@ ninja.data = [{
         
           title: "Naughty Or Nice",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -133,7 +133,7 @@ ninja.data = [{
         
           title: "Godot and Game Development",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -144,7 +144,7 @@ ninja.data = [{
         
           title: "Dungeondraft, Mapmaking, and Adventure Design",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -155,7 +155,7 @@ ninja.data = [{
         
           title: "Jojo, The Flying Cat Mod",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -166,7 +166,7 @@ ninja.data = [{
         
           title: "Tabletop Simulator and Playtesting",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -177,7 +177,7 @@ ninja.data = [{
         
           title: "Machinations and Game Design Tools",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -188,7 +188,7 @@ ninja.data = [{
         
           title: "Marianne’s Paralogue and Character Expectations",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -199,7 +199,7 @@ ninja.data = [{
         
           title: "First Ever Encounter!",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -210,7 +210,7 @@ ninja.data = [{
         
           title: "Battle Brothers – The Tale of Sun’s End Company",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -221,7 +221,7 @@ ninja.data = [{
         
           title: "Mount &amp; Blade: The Ultimate Medieval/Low-Fantasy Sandbox",
         
-        description: "Migrated from youcanclickl3.wordpress.com",
+        description: "",
         section: "Posts",
         handler: () => {
           
@@ -259,48 +259,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/wanderers-guide-to-prosgia/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
-        },
-      },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
