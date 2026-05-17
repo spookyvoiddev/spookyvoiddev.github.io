@@ -22,7 +22,7 @@ latest_posts:
   limit: 5
 ---
 
-I'm **Dany Francis**, a Senior QA Tester at **Epic Games**. When I'm not at work, you can find me making battlemaps, playing one of my favorite games, _Crusader Kings III_, or maybe defending my five star rating of _Ratatouille_.
+I'm Dany Francis, a Senior QA Tester at Epic Games. When I'm not at work, you can find me making battlemaps, playing one of my favorite games, Crusader Kings III, or maybe defending my five star rating of Ratatouille.
 
 More of my work can be found in [Projects](/projects/).
 More of my thoughts can be found in the [blog](/blog/), oh curious reader.
