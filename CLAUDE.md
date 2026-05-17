@@ -1,7 +1,3 @@
-@AGENTS.md
-
----
-
 # Project-specific lessons (DO NOT IGNORE)
 
 ## Mandatory pre-commit checklist
@@ -41,23 +37,18 @@ This has bitten us multiple times. Pattern:
 4. If it keeps recurring, look for ANY workflow that auto-commits to `main`;
    disable its push trigger.
 
-## Disabled workflows (do not re-enable without configuring upstream deps)
+## Active workflows
 
-These al-folio workflows are intentionally set to `workflow_dispatch:` only:
+Only three workflows live in `.github/workflows/`:
 
-| Workflow                     | Why disabled                                                                 |
-| ---------------------------- | ---------------------------------------------------------------------------- |
-| `lighthouse-badger.yml`      | Needs a PAT in `secrets.token`; not configured.                              |
-| `render-cv.yml`              | Our `_data/cv.yml` uses al-folio's display subset, not full RenderCV schema. |
-| `update-citations.yml`       | No `_bibliography/papers.bib`.                                               |
-| `broken-links-site.yml`      | Burns CI minutes after every deploy.                                         |
-| `update-tocs.yml`            | Caused the Prettier auto-commit loop (see above).                            |
-| `copilot-setup-steps.yml`    | Only relevant when GitHub Copilot agent is wired up.                         |
-| `prettier-comment-on-pr.yml` | Single-author repo does not need automated PR comments.                      |
+- `deploy.yml` — Jekyll build + push to `gh-pages`.
+- `prettier.yml` — formatting check on push/PR.
+- `codeql.yml` — security scan.
 
-Workflows kept enabled: `deploy.yml`, `prettier.yml`, `codeql.yml`.
-Docker/broken-links/axe workflows have
-`if: github.repository_owner == 'alshedivat'` guards and skip silently.
+All al-folio template workflows (lighthouse-badger, render-cv, update-citations,
+update-tocs, broken-links, axe, copilot-setup-steps, prettier-comment-on-pr,
+docker-slim, deploy-image, deploy-docker-tag, prettier-html) were removed
+during repo cleanup. Do not reintroduce without configuring upstream deps.
 
 ## GitHub Pages source
 
