@@ -19,7 +19,7 @@ Hello friends! It’s with excitement and eagerness (don’t those mean the same
 
 Firstly, here’s a marketing blurb:
 
-_Wanderer’s Guide to Prosgia is a brand new setting, compatible with the 5th edition of the world’s most popular RPG! Wanderer’s Guide to Prosgia introduces new character options, spells, magical items, devious creatures, and an elemental desert setting to experience it all in. _
+_Wanderer’s Guide to Prosgia is a brand new setting, compatible with the 5th edition of the world’s most popular RPG! Wanderer’s Guide to Prosgia introduces new character options, spells, magical items, devious creatures, and an elemental desert setting to experience it all in._
 
 I pitched Wanderer’s Guide as a D&D project, as I had wanted to utilize the 5th edition rule system to create a oneshot and further my TTRPG design skills. Having created Acolyte and my yet unreleased solo project, (be on the lookout for more 5th edition content on the horizon!) I wanted something a big larger in scale. This required a team, and thus I elected to open my project up to collaborators.
 
@@ -29,14 +29,11 @@ When pitching the project ([see the pitch deck here](https://docs.google.com/pre
 
 - 10 Items
 - Art for 4
-
 - 8 Spells
 - 4 Monsters
 - Art for each
-
 - 2 Subclasses
 - Art for each
-
 - 4 Battlemaps
 - 3 Backgrounds
 - 1 City Map
@@ -44,8 +41,10 @@ When pitching the project ([see the pitch deck here](https://docs.google.com/pre
 
 In a project group of 10, with 5 writers, 4 artists, and a producer, this list of features proved feasible, but not without some compromises. Right off the bat, we had to eschew the city map for instead a regional map.
 
-![](/assets/img/posts/prosgia-1-5b34e7.jpg)
-_Regional map of Prosgia!_
+<figure>
+  <img src="/assets/img/posts/prosgia-1-5b34e7.jpg" alt="" />
+  <figcaption>Regional map of Prosgia!</figcaption>
+</figure>
 
 Personally, I think that this was a warranted change. Providing a regional map allows for more varied adventures, as we can list things on the map that we haven’t necessarily written content for. The Verdant Divide is one such location.
 
@@ -95,8 +94,10 @@ As we reached the due date of our project, we felt very confident. We had finish
 
 To commemorate this launch, we decided to finally meet in person! You heard that right, we were working remotely on this project the ENTIRE time!
 
-![](/assets/img/posts/image-6d34a8.png)
-_From left to right: Avery Knowlton, Dany Francis (me!), Ethan Michaels, Autumn Wolverton, Matthew Hamm, Stan Caldwell, Ethan Chen_
+<figure>
+  <img src="/assets/img/posts/image-6d34a8.png" alt="" />
+  <figcaption>From left to right: Avery Knowlton, Dany Francis (me!), Ethan Michaels, Autumn Wolverton, Matthew Hamm, Stan Caldwell, Ethan Chen</figcaption>
+</figure>
 
 It was an incredible delight to meet our team in person. We spent this time playing our own game, with Ethan as our DM!
 

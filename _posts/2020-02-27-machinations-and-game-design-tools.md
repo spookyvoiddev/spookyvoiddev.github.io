@@ -9,13 +9,17 @@ thumbnail: /assets/img/posts/image-94b1a7.png
 
 Let’s begin with my first Machination, [a simple diagram of a car with bad MPG](https://my.machinations.io/public/Costco-Gas-with-a-Prius/051f98c4016596ae2b8765e31498a535d). It’s not very well done, and the end state condition could use a bit of work, but it worked enough as a basis for me to continue. You can interact with these, so make sure you click the “Go to work” node to actually see it in action (or any node with an inner outline.)
 
-![](/assets/img/posts/image-94b1a7.png)
-_Welcome to the Dungeon (rough)_
+<figure>
+  <img src="/assets/img/posts/image-94b1a7.png" alt="" />
+  <figcaption>Welcome to the Dungeon (rough)</figcaption>
+</figure>
 
 Moving on, we (my group and I for class) were assigned the game, “[Welcome to the Dungeon](https://boardgamegeek.com/boardgame/150312/welcome-dungeon),” an amazing tabletop game based around chickening out of the very intimidating dungeon. It honestly surprised me by how complex it turned out being, despite the small amount of pieces included in the box. Creating our [Machination](https://my.machinations.io/public/Welcome-to-the-Dungeon/0fe0c6f8e160c37e6403c62b716209728)for this game took quite a while, as we weren’t really sure how the tool itself actually worked, and we found that the double or triple uses for some nodes and connectors actually hindering us, as it wasn’t very clear what we could use each node for.
 
-![](/assets/img/posts/image-1-9520bb.png)
-_Command & Conquer_
+<figure>
+  <img src="/assets/img/posts/image-1-9520bb.png" alt="" />
+  <figcaption>Command &amp; Conquer</figcaption>
+</figure>
 
 Most recently, I attempted to model out a very (very) basic example of the RTS, “Command & Conquer.” Personally one of my favorite RTS’s, and one of the first video games I ever played. My Machination for this is a bit rough around the edges, and only displays the very basic system of creating different types of units and one type of building. Given a bit more time, this [Machination](https://my.machinations.io/public/Command-/074d6a37f47201d72ea0e2c8cfd9710eb)would expand to include combat, and upgrading of units, as well as a queue for unit creation.
 

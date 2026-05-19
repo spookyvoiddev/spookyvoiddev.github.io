@@ -49,15 +49,27 @@ a.news-title {
     border-radius: 4px;
   }
 
-  // Italic line immediately after image -> treat as caption.
-  img + em,
-  p > em:only-child {
-    display: block;
+  // Semantic image captions: <figure><img/><figcaption>...</figcaption></figure>.
+  // Replaces the prior `img + em` / `p > em:only-child` heuristic which
+  // (a) hijacked any standalone-italic paragraph as a caption and
+  // (b) produced non-semantic markup (no <figcaption> for assistive tech).
+  figure {
+    margin: 1.5rem auto;
     text-align: center;
-    color: var(--global-text-color-light);
-    font-size: 0.9rem;
-    margin-top: -0.75rem;
-    margin-bottom: 1.5rem;
+
+    img {
+      margin: 0 auto;
+    }
+
+    figcaption {
+      display: block;
+      text-align: center;
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      font-style: italic;
+      margin-top: 0.25rem;
+      margin-bottom: 0;
+    }
   }
 }
 
