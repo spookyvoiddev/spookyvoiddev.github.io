@@ -24,9 +24,20 @@ This has bitten us multiple times. Pattern:
 3. We "fixed" only the offending file with `prettier <file> --write`. The next
    push re-introduced drift in a different file.
 
+**Second cause: CI used to install unpinned prettier.** `prettier.yml` ran
+`npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid`,
+which resolves the _latest_ versions instead of the ones in `package-lock.json`.
+Once plugin-liquid 1.11.0 shipped, CI reformatted `_layouts/bib.liquid` (one
+`{% endhighlight %}` indent) and failed on a file no commit had touched, while
+`prettier . --check` stayed green locally on the pinned 1.10.2. The two versions
+disagree in both directions, so reformatting the file only flips which
+environment fails.
+
 **Permanent mitigation already in place:**
 
 - `update-tocs.yml` is set to `workflow_dispatch:` only (no auto-trigger).
+- `prettier.yml` installs with `npm ci`, so CI and local use identical
+  versions. Do not change it back to `npm install <pkg>`.
 - Running `prettier . --write` (entire repo) before every commit catches drift.
 
 **If a Prettier CI failure recurs:**
@@ -36,6 +47,9 @@ This has bitten us multiple times. Pattern:
 3. Commit + push. Don't target single files.
 4. If it keeps recurring, look for ANY workflow that auto-commits to `main`;
    disable its push trigger.
+5. If CI flags a file your commit never touched, compare the prettier and
+   plugin-liquid versions CI resolved against `package-lock.json` before
+   touching the file.
 
 ## Active workflows
 

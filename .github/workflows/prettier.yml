@@ -20,7 +20,11 @@ jobs:
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
       - name: Install Prettier 💾
-        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+        # `npm ci` installs the exact versions from package-lock.json. Do not
+        # replace this with `npm install <pkg>`: that resolves the latest
+        # prettier / plugin-liquid, which formats differently from what
+        # contributors run locally and fails the check on untouched files.
+        run: npm ci
       - name: Prettier Check 🔎
         id: prettier
         run: npx prettier . --check
