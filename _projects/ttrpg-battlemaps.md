@@ -2,7 +2,7 @@
 layout: page
 title: "TTRPG Battlemaps"
 description: "16-map gallery of grid-ready battlemaps for tabletop role-playing."
-img: assets/img/battlemaps/whitedragon.png
+img: assets/img/battlemaps/desertdreams.png
 importance: 3
 category: tabletop
 giscus_comments: false

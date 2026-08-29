@@ -2,7 +2,7 @@
 layout: page
 title: "Wanderer's Guide to Prosgia"
 description: "5th-edition TTRPG supplement. Creative lead on a 10-person team."
-img: assets/img/projects/prosgia-1.jpg
+img: assets/img/projects/bookcover.png
 importance: 2
 category: tabletop
 giscus_comments: false
