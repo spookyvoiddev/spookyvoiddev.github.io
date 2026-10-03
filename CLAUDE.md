@@ -115,7 +115,7 @@ builds `_site/` and pushes it to `gh-pages` via
 
 ## Migration scripts
 
-Live outside the repo at `D:\ClaudeProjects\.wp-migration\` (not version
+Live outside the repo at `D:\ClaudeArchive\wp-migration\` (not version
 controlled). Includes:
 
 - `convert.rb` — WordPress HTML → Jekyll Markdown converter.
