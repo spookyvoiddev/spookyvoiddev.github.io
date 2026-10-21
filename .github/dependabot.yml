@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      gems:
+        patterns: ["*"]
+  # prettier + plugin-liquid formatting changes must be applied repo-wide
+  # (`npx prettier . --write`) in the same PR, see CLAUDE.md.
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      node-tools:
+        patterns: ["*"]

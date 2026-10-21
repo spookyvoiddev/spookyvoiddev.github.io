@@ -10,15 +10,23 @@ on:
       - master
       - main
 
+permissions:
+  contents: read
+
 jobs:
   check:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
       - name: Setup Node.js ⚙️
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+          cache: npm
       - name: Install Prettier 💾
         # `npm ci` installs the exact versions from package-lock.json. Do not
         # replace this with `npm install <pkg>`: that resolves the latest
@@ -34,19 +42,12 @@ jobs:
         run: |
           npx prettier . --write
           git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
-          npm install -g diff2html-cli
-          diff2html -i file -s side -F diff.html -- diff.txt
+          npx --yes diff2html-cli@5.2.15 -i file -s side -F diff.html -- diff.txt
       - name: Upload html diff ⬆️
         id: artifact-upload
         if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
           name: HTML Diff
           path: diff.html
           retention-days: 7
-      - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
-        uses: peter-evans/repository-dispatch@v2
-        with:
-          event-type: prettier-failed-on-pr
-          client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'

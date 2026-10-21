@@ -55,14 +55,32 @@ environment fails.
 
 Only three workflows live in `.github/workflows/`:
 
-- `deploy.yml` — Jekyll build + push to `gh-pages`.
+- `deploy.yml` — Jekyll build + push to `gh-pages`. Split into a read-only
+  `build` job and a `deploy` job that alone holds `contents: write`; keep it
+  that way so gems/npm packages never run with a write token.
 - `prettier.yml` — formatting check on push/PR.
-- `codeql.yml` — security scan.
+- `codeql.yml` — security scan (JS, Ruby, and the workflows themselves).
+
+`.github/dependabot.yml` opens monthly grouped PRs for actions, gems and npm.
+Actions are pinned to commit SHAs with a `# vX.Y.Z` comment; keep that format
+when bumping by hand. If a Dependabot PR bumps prettier or plugin-liquid, run
+`npx prettier . --write` on that branch before merging.
 
 All al-folio template workflows (lighthouse-badger, render-cv, update-citations,
 update-tocs, broken-links, axe, copilot-setup-steps, prettier-comment-on-pr,
 docker-slim, deploy-image, deploy-docker-tag, prettier-html) were removed
 during repo cleanup. Do not reintroduce without configuring upstream deps.
+
+## Supply chain
+
+- `Gemfile.lock` is committed (platforms include `x86_64-linux` for CI and
+  `x64-mingw-ucrt` for local Windows). Commit it whenever gems change.
+- `jekyll-terser` is a git gem pinned by `ref:`; bump the SHA deliberately.
+- purgecss is a pinned devDependency run via `npx --no-install`; do not go back
+  to `npm install -g purgecss`.
+- Third-party CDN libs in `_config.yml` carry SRI hashes. jsDelivr may be
+  blocked from cloud sessions; compute a hash from the npm tarball instead
+  (`npm pack <pkg>@<ver>`, then `openssl dgst -sha256 -binary <file> | base64`).
 
 ## GitHub Pages source
 
