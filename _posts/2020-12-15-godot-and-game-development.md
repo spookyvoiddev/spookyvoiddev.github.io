@@ -2,7 +2,7 @@
 layout: post
 title: "Godot and Game Development"
 date: 2020-12-15 22:11:32 +0000
-thumbnail: /assets/img/posts/fksdvh3pg1-1-7927af.gif
+thumbnail: /assets/img/posts/fksdvh3pg1-1-7927af.jpg
 ---
 
 Well, it’s been some time since I’ve written and I’ve decided to write again. (Incredible commentary, I know.)
@@ -15,6 +15,9 @@ Now I find myself halfway through a month long winter game jam, using Godot as m
 
 A friend, a stranger, and I are working together to bring a gameboy era inspired game to itch.io using Godot, and I personally think it’s going pretty well for our first ever game.
 
-![](/assets/img/posts/fksdvh3pg1-1-7927af.gif)
+<video class="img-fluid" autoplay loop muted playsinline preload="metadata" poster="/assets/img/posts/fksdvh3pg1-1-7927af.jpg" aria-label="Gameplay capture of the Winter Game Jam project in Godot">
+  <source src="/assets/img/posts/fksdvh3pg1-1-7927af.webm" type="video/webm">
+  <source src="/assets/img/posts/fksdvh3pg1-1-7927af.mp4" type="video/mp4">
+</video>
 
 Programmed by yours truly, using plenty of resources from the internet that I have honestly lost track of. It’ll be hosted on my Itch page when completed (and I’ll be making another post,) but for now, that’s all folks!

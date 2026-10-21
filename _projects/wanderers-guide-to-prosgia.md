@@ -2,7 +2,7 @@
 layout: page
 title: "Wanderer's Guide to Prosgia"
 description: "5th-edition TTRPG supplement. Creative lead on a 10-person team."
-img: assets/img/projects/bookcover.png
+img: assets/img/projects/bookcover.jpg
 importance: 2
 category: tabletop
 giscus_comments: false
@@ -24,7 +24,7 @@ I served as **creative lead** on a 10-person team (5 writers, 4 artists, 1 produ
         {% include figure.liquid path="assets/img/projects/prosgia-1.jpg" title="Regional map of Prosgia" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-        {% include figure.liquid path="assets/img/projects/bookcover.png" title="Wanderer's Guide to Prosgia cover" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/bookcover.jpg" title="Wanderer's Guide to Prosgia cover" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
