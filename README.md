@@ -13,11 +13,15 @@ Personal site of [@spookyvoiddev](https://github.com/spookyvoiddev) — blog, pr
 
 ## Local development
 
+Requires Ruby 3.3 and Node 22.
+
 ```bash
-docker compose up
+bundle install
+npm ci
+bundle exec jekyll serve
 ```
 
-Site serves at <http://localhost:8080>.
+Site serves at <http://localhost:4000>. Run `npx prettier . --write` before committing.
 
 ## License
 
