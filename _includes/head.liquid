@@ -2,12 +2,15 @@
 {% include metadata.liquid %}
 
 <!-- Security: Content Security Policy -->
-<!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
+<!-- Permissive CSP that still allows external images, videos, and common embed services, -->
+<!-- but blocks plugins (object-src), <base> hijacking (base-uri), and off-site form posts (form-action). -->
+<!-- If you enable the newsletter, add its endpoint host (https://app.loops.so) to form-action. -->
 <!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
 <meta
   http-equiv="Content-Security-Policy"
-  content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"
+  content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;"
 >
+<meta name="referrer" content="strict-origin-when-cross-origin">
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
@@ -190,10 +193,6 @@
       crossorigin="anonymous"
     >
   {% endif %}
-{% endif %}
-
-{% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="{{ '/assets/css/tikzjax.min.css' | relative_url | bust_file_cache }}">
 {% endif %}
 
 {% if site.enable_cookie_consent %}
