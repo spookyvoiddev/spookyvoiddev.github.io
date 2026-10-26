@@ -10,4 +10,4 @@ I wrote it for a class on narrative design that I am taking, and it takes place 
 
 Feel free to use it for your adventures!
 
-[the-goobering-goblin](https://youcanclickl3.wordpress.com/wp-content/uploads/2019/11/the-goobering-goblin.pdf)[Download](https://youcanclickl3.wordpress.com/wp-content/uploads/2019/11/the-goobering-goblin.pdf)
+[the-goobering-goblin](/assets/pdf/the-goobering-goblin.pdf)[Download](/assets/pdf/the-goobering-goblin.pdf)
