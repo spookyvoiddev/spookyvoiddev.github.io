@@ -61,10 +61,13 @@ Only three workflows live in `.github/workflows/`:
 - `prettier.yml` — formatting check on push/PR.
 - `codeql.yml` — security scan (JS, Ruby, and the workflows themselves).
 
-`.github/dependabot.yml` opens monthly grouped PRs for actions, gems and npm.
-Actions are pinned to commit SHAs with a `# vX.Y.Z` comment; keep that format
-when bumping by hand. If a Dependabot PR bumps prettier or plugin-liquid, run
-`npx prettier . --write` on that branch before merging.
+Dependabot is alerts only. Dependabot alerts are turned on in the repo's Code
+security settings (dependency graph on, security updates and version updates
+off), and there is no `.github/dependabot.yml`, so Dependabot opens no
+version-update PRs. Bump versions by hand when an alert calls for it. Actions
+are pinned to commit SHAs with a `# vX.Y.Z` comment; keep that format when
+bumping. If a bump touches prettier or plugin-liquid, run
+`npx prettier . --write` in the same commit.
 
 All al-folio template workflows (lighthouse-badger, render-cv, update-citations,
 update-tocs, broken-links, axe, copilot-setup-steps, prettier-comment-on-pr,
