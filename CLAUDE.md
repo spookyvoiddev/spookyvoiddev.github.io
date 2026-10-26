@@ -81,6 +81,10 @@ during repo cleanup. Do not reintroduce without configuring upstream deps.
 - `jekyll-terser` is a git gem pinned by `ref:`; bump the SHA deliberately.
 - purgecss is a pinned devDependency run via `npx --no-install`; do not go back
   to `npm install -g purgecss`.
+- `_plugins/third-party-libraries.rb` replaces the jekyll-3rd-party-libraries
+  gem (CDN mode only: it fills `{{version}}` in the `third_party_libraries`
+  URLs). The gem pinned css_parser below 2.0, which has an unfixable advisory,
+  so neither is in the Gemfile any more. `download: true` is unsupported.
 - Third-party CDN libs in `_config.yml` carry SRI hashes. jsDelivr may be
   blocked from cloud sessions; compute a hash from the npm tarball instead
   (`npm pack <pkg>@<ver>`, then `openssl dgst -sha256 -binary <file> | base64`).
