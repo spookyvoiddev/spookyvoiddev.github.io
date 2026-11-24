@@ -110,11 +110,14 @@ builds `_site/` and pushes it to `gh-pages` via
 
 ## CV (`_data/cv.yml`)
 
-- Per-role `summary:` is intentionally omitted. Each role lists `Credited:`
-  followed by game titles in `highlights`.
+- Per-role `summary:` is intentionally omitted. Each role lists its game
+  titles in `credits:`, shown as a plain list with no "Credited" label
+  (owner, 2026-11-24).
+- Consecutive roles at one company render grouped under one company header
+  on a timeline, LinkedIn-style (owner, 2026-11-24). List entries newest first.
 - Locked games per role (don't add to wrong role):
   - Senior Tester II @ Epic: none yet (add only when the owner names them)
-  - Senior Tester @ Epic: Fortnite: Battle Royale, Fortnite: Blitz Royale
+  - Senior Tester @ Epic: Fortnite: Blitz Royale
   - Tester II @ Epic: Fortnite: Battle Royale
   - QA Specialist @ The Behemoth: Alien Hominid Invasion, Alien Hominid HD,
     BattleBlock Theater Remastered

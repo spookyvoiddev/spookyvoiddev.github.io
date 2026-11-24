@@ -97,18 +97,8 @@ $cv-icon-gutter: 1.4rem;
     }
   }
 
-  .credited-label {
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--global-text-color-light);
-    margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
-  }
-
   .credited-list {
-    margin-top: 0;
+    margin-top: 0.35rem;
   }
 
   // Several roles at one company, LinkedIn-style: the company heads the
