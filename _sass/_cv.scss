@@ -97,18 +97,75 @@ $cv-icon-gutter: 1.4rem;
     }
   }
 
-  .credited-label {
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--global-text-color-light);
-    margin-top: 0.5rem;
-    margin-bottom: 0.25rem;
+  .credited-list {
+    margin-top: 0.35rem;
   }
 
-  .credited-list {
-    margin-top: 0;
+  // Several roles at one company, LinkedIn-style: the company heads the
+  // block and each role hangs off a dot-and-line timeline.
+  .company-name-group {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+
+  .cv-role-timeline {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  $cv-dot: 0.6rem;
+
+  .cv-role {
+    position: relative;
+    padding-left: 1.4rem;
+    padding-bottom: 0.9rem;
+
+    // The dot sits on the role title's middle line.
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.45rem;
+      width: $cv-dot;
+      height: $cv-dot;
+      border-radius: 50%;
+      background: var(--global-theme-color);
+    }
+
+    // The line runs from this dot down to just above the next one (which
+    // sits 0.45rem into the next role), so it overhangs this role's bottom.
+    &:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      left: calc(#{$cv-dot} / 2 - 1px);
+      top: calc(0.45rem + #{$cv-dot} + 0.2rem);
+      bottom: -0.25rem;
+      width: 2px;
+      background: var(--global-text-color-light);
+      opacity: 0.45;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    .title {
+      font-size: 1.05rem;
+    }
+
+    .cv-role-dates {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.15rem;
+    }
+
+    // Nested inside the <ol>, browsers switch bullets to squares; keep the
+    // same open circles as the single-role entries.
+    .credited-list {
+      list-style-type: circle;
+    }
   }
 }
 

@@ -3,29 +3,52 @@
   Handles both:
   - RenderCV: company, position, start_date, end_date, location, url, summary, highlights
   - JSONResume: name, position, startDate, endDate, location, url, summary, highlights
+
+  Consecutive entries at the same company are grouped LinkedIn-style: one
+  company header with the total span, then each role on a dot-and-line
+  timeline with its own month dates. Entries must be listed newest first.
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
+    {% assign idx = forloop.index0 %}
+    {% assign company = entry.name | default: entry.company | default: entry.organization %}
+
+    {% comment %} Skip entries already rendered as part of the previous company's group. {% endcomment %}
+    {% if idx > 0 %}
+      {% assign prev_idx = idx | minus: 1 %}
+      {% assign prev = entries[prev_idx] %}
+      {% assign prev_company = prev.name | default: prev.company | default: prev.organization %}
+      {% if company and prev_company == company %}{% continue %}{% endif %}
+    {% endif %}
+
+    {% assign group = '' | split: '' %}
+    {% for e in entries offset: idx %}
+      {% assign e_company = e.name | default: e.company | default: e.organization %}
+      {% if group.size == 0 or company and e_company == company %}
+        {% assign group = group | push: e %}
+      {% else %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign first = group | first %}
+    {% assign last = group | last %}
+    {% assign start_date = last.start_date | default: last.startDate | default: '' | append: '' %}
+    {% assign end_date = first.end_date | default: first.endDate | default: '' | append: '' %}
+    {% if start_date != '' %}
+      {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
+      {% assign startYear = start_date | split: '-' | first %}
+      {% assign endYear = end_date | split: '-' | first | default: 'Present' %}
+      {% assign date = startYear | append: ' - ' | append: endYear %}
+    {% else %}
+      {% assign date = '' %}
+    {% endif %}
+    {% assign location = entry.location | default: '' %}
+
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-3 col-sm-3 col-md-3 text-left date-column">
-          {% capture start_date %}
-            {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
-          {% endcapture %}
-          {% capture end_date %}
-            {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
-          {% endcapture %}
-
-          {% if start_date != '' %}
-            {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
-          {% else %}
-            {% assign date = '' %}
-          {% endif %}
-
           <table class="table-cv">
             <tbody>
               <tr>
@@ -33,9 +56,6 @@
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
               {% if location != '' %}
                 <tr>
                   <td>
@@ -50,50 +70,42 @@
           </table>
         </div>
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0 cv-content-column">
-          {% capture position_title %}
-            {% if entry.position %}{{ entry.position }}{% endif %}
-          {% endcapture %}
-
-          {% if position_title != '' %}
-            <h6 class="title font-weight-bold ml-1 ml-md-4">{{ position_title }}</h6>
-          {% endif %}
-
-          {% capture company_name %}
-            {% if entry.name %}{{ entry.name }}{% elsif entry.company %}{{ entry.company }}{% elsif entry.organization %}{{ entry.organization }}{% endif %}
-          {% endcapture %}
-          {% if company_name != '' %}
-            <h6 class="company-name ml-1 ml-md-4">
+          {% if group.size > 1 %}
+            {% comment %} Grouped: company heads the block, roles follow on a timeline. {% endcomment %}
+            <h6 class="company-name company-name-group ml-1 ml-md-4">
               {% if entry.url %}
-                <a href="{{ entry.url }}">{{ company_name }}</a>
+                <a href="{{ entry.url }}">{{ company }}</a>
               {% else %}
-                {{ company_name }}
+                {{ company }}
               {% endif %}
             </h6>
-          {% endif %}
-
-          {% if entry.summary %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
-              {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
-            </h6>
-          {% endif %}
-
-          {% if entry.credits and entry.credits.size > 0 %}
-            <h6 class="credited-label ml-1 ml-md-4">Credited</h6>
-            <ul class="items credited-list">
-              {% for item in entry.credits %}
-                <li>
-                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+            <ol class="cv-role-timeline">
+              {% for role in group %}
+                {% assign r_start = role.start_date | default: role.startDate | default: '' | append: '' %}
+                {% assign r_end = role.end_date | default: role.endDate | default: 'Present' | append: '' %}
+                {% if r_start contains '-' %}{% assign r_start = r_start | append: '-01' | date: '%b %Y' %}{% endif %}
+                {% if r_end contains '-' %}{% assign r_end = r_end | append: '-01' | date: '%b %Y' %}{% endif %}
+                <li class="cv-role">
+                  <h6 class="title font-weight-bold">{{ role.position }}</h6>
+                  <p class="cv-role-dates">{{ r_start }} – {{ r_end }}</p>
+                  {% include cv/experience_details.liquid item=role %}
                 </li>
               {% endfor %}
-            </ul>
-          {% elsif entry.highlights %}
-            <ul class="items">
-              {% for item in entry.highlights %}
-                <li>
-                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-                </li>
-              {% endfor %}
-            </ul>
+            </ol>
+          {% else %}
+            {% if entry.position %}
+              <h6 class="title font-weight-bold ml-1 ml-md-4">{{ entry.position }}</h6>
+            {% endif %}
+            {% if company %}
+              <h6 class="company-name ml-1 ml-md-4">
+                {% if entry.url %}
+                  <a href="{{ entry.url }}">{{ company }}</a>
+                {% else %}
+                  {{ company }}
+                {% endif %}
+              </h6>
+            {% endif %}
+            {% include cv/experience_details.liquid item=entry %}
           {% endif %}
         </div>
       </div>
