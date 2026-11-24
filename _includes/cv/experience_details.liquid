@@ -1,0 +1,30 @@
+{% comment %}
+  Summary and credits/highlights for one experience entry, shared by the
+  single-role and grouped-role layouts in experience.liquid.
+{% endcomment %}
+{% assign item = include.item %}
+
+{% if item.summary %}
+  <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
+    {{ item.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+  </h6>
+{% endif %}
+
+{% if item.credits and item.credits.size > 0 %}
+  <h6 class="credited-label ml-1 ml-md-4">Credited</h6>
+  <ul class="items credited-list">
+    {% for credit in item.credits %}
+      <li>
+        <span class="item">{{ credit | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% elsif item.highlights %}
+  <ul class="items">
+    {% for highlight in item.highlights %}
+      <li>
+        <span class="item">{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
