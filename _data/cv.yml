@@ -1,16 +1,23 @@
 cv:
   name: Dany Francis
-  label: Senior QA Tester
-  summary: Senior QA Tester at Epic Games. Background in Gameplay QA.
+  label: Senior Tester II
+  summary: Senior Tester II at Epic Games. Background in Gameplay QA.
 
   sections:
     Experience:
       - company: Epic Games
-        position: Senior QA Tester
+        position: Senior Tester II
+        location: Cary, NC
+        url: https://www.epicgames.com/
+        start_date: 2026-11
+        end_date: Present
+
+      - company: Epic Games
+        position: Senior Tester
         location: Cary, NC
         url: https://www.epicgames.com/
         start_date: 2025-12
-        end_date: Present
+        end_date: 2026-11
         credits:
           - "Fortnite: Battle Royale"
           - "Fortnite: Blitz Royale"

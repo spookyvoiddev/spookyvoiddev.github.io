@@ -113,7 +113,8 @@ builds `_site/` and pushes it to `gh-pages` via
 - Per-role `summary:` is intentionally omitted. Each role lists `Credited:`
   followed by game titles in `highlights`.
 - Locked games per role (don't add to wrong role):
-  - Senior QA Tester @ Epic: Fortnite: Battle Royale, Fortnite: Blitz Royale
+  - Senior Tester II @ Epic: none yet (add only when the owner names them)
+  - Senior Tester @ Epic: Fortnite: Battle Royale, Fortnite: Blitz Royale
   - Tester II @ Epic: Fortnite: Battle Royale
   - QA Specialist @ The Behemoth: Alien Hominid Invasion, Alien Hominid HD,
     BattleBlock Theater Remastered

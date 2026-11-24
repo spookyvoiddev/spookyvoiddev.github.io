@@ -1,0 +1,9 @@
+# This repo is the owner's personal site: their name and handle are the published content.
+dany _config.yml   # site author name, description and keywords
+dany _data/cv.yml   # CV name
+dany _pages/about.md   # about page intro
+dany _pages/cv.md   # LinkedIn profile slug
+dany _posts/   # bylines and captions in blog posts
+spookyvoiddev README.md   # repo and live site name
+spookyvoiddev _config.yml   # site URL and repo slug
+spookyvoiddev package-lock.json   # package name is the repo name
